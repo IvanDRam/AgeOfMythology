@@ -1,0 +1,46 @@
+unidad,nombre ,costo,puntos resistencia,velocidad,costo poblacion ,alcance max,anticontundente,anticortante,antiproyectiles,daño cortante ,daño perforante,daño demoledor,civilizacion,edad,tipo 
+1,aldeano,50 alimentos,65,3.8,1,12,99,25,35,8,0,0,griega,arcaica,humana
+2,jason,100 alimentos.50 oro,250,4.3,2,99,25,35,4,4,0,0,griega,arcaica,heroe
+3,pesquero,50 madera,100,4.8,0,0,5,60,50,0,0,0,griega,arcaica,humana
+4,ulises ,200 madera.2 favores ,300,4.3,2,18,99,20,30,0,8,0,griega,clasica,heroe
+5,pegaso,50 alimentos,140,5,1,0,99,50,50,0,0,0,griega,arcaica,mitica
+6,medico,60 alimentos.40 oro,90,4,2,0,99,20,20,0,0,0,griega,clasica,humana
+7,trirreme,100 madera.50 oro,290,6,2,14,10,30,20,0,6,0,griega,clasica,humana
+8,barco transporte,110 madera,180,5.3,2,0,5,40,80,0,0,0,griega,clasica,humana
+9,hoplita,50 alimentos.40 oro,115,4.2,2,0,99,35,15,8,0,0,griega,clasica,humana
+10,toxote,55 madera.35 oro,60,4,2,15,99,15,15,0,6,0,griega,clasica,humana
+11,hippikon,40 alimentos.80 oro,150,5.5,3,0,99,10,25,10,0,0,griega,clasica,humana
+12,minotauro,200 alimentos.14 favores,320,4.2,4,0,80,60,55,15,0,10,griega,clasica,mitica
+13,centauro,200 manera.12 favores,220,5.2,3,12,80,30,35,0,12,0,griega,clasica,mitica
+14,hercules ,200 alimentos.150 madera.4 favores,400,4.3,3,0,99,25,40,10,0,0,griega,heroica,heroe
+15,pentekonter,100 madera.50 oro,240,7,2,0,75,30,15,20,0,0,griega,heroica,humana
+16,jugertnaut,100 madera.100 oro,480,4.8,3,18,10,10,50,0,0,6,griega,heroica,humana
+17,hispaspista,60 alimentos.25 oro,95,4.3,2,0,99,35,10,5,0,0,griega,heroica,humana
+18,peltasta,60 madera.20 oro,70,4,2,16,99,15,20,0,3,0,griega,heroica,humana
+19,prodomos,70 alimentos.40 oro,120,6,3,0,99,20,10,6,0,0,griega,heroica,humana
+20,caravana de burros,100 alimentos ,115,3.8,1,0,99,40,40,0,0,0,griega,heroica,humana
+21,trabuco,150 madera.200 oro,110,2.4,3,28,90,30,90,0,5,11,griega,heroica,humana
+22,manticora,300 madera.25 favores ,420,4.3,5,10,80,30,60,0,11,0,griega,heroica,mitica
+23,hydra,250 alimentos.28 favores,800,4,5,0,80,60,40,20,0,10,griega,heroica,mitica
+24,escila ,200 oro.20 favores,800,5.3,5,0,80,40,70,20,0,10,griega,heroica,mitica
+25,belerofonte,400 alimentos.6 favores,400,6,4,0,99,20,40,20,0,0,griega,mitica,heroe
+26,mirmidon,70 alimentos.50 oro,120,4.3,3,0,99,45,20,10,0,0,griega,mitica,humana
+27,helepolis,300 madera.200 oro,650,2.9,5,10,50,5,96,0,5,17,griega,mitica,humana
+28,coloso,300 oro.25 favores,1000,3,5,0,80,50,80,20,0,50,griega,mitica,mitica
+29,medusa,250 oro.28 favores,360,4.3,5,10,80,60,70,0,15,12,griega,mitica,mitica
+30,carcinos ,200 madera.15 favores,720,4.3,4,0,80,70,60,20,0,12,griega,mitica,mitica
+31,teseo,100 alimentos.50 oro,240,4.3,2,0,99,25,40,4,0,0,griega,arcaica,heroe
+32,caballito de mar,free,70,6.6,0,0,99,10,70,0,0,0,griega,arcaica,mitica
+33,hipolita,200 madera.2 favores,280,4.3,2,10,99,20,30,0,9,0,griega,clasica,heroe
+34,ciclope,250 alimentos.18 favores,650,3.8,4,0,80,50,50,15,0,12,griega,clasica,mitica
+35,atalanta,350 madera.4 favores,350,6,3,0,99,35,40,8,0,0,griega,heroica,heroe
+36,el argos,200 madera.4 favores,480,6,3,16,15,40,25,0,8,0,griega,heroica,heroe
+37,leon de nemea,250 oro.22 favores,660,4.8,4,0,80,30,60,20,0,10,griega,heroica,mitica
+38,polifemo,400 oro.6 favores,700,4.1,4,0,99,40,40,15,0,20,griega,mitica,heroe
+39,hetairoi,41 alimentos.72 oro,140,5.3,3,0,99,10,40,8,0,0,griega,mitica,humana
+40,quimera,300 oro.30 favores,800,5.3,4,0,80,60,60,20,0,0,griega,mitica,mitica
+41,ayax,100 alimentos.50 oro,240,4.3,2,0,99,30,35,4,0,0,griega,arcaica,heroe
+42,quiron,200 madera.2 favores ,300,5.5,2,16,99,20,20,0,7,0,griega,clasica,heroe
+43,aquiles,200 alimentos.150 madera.4 favores,340,5.5,3,0,99,40,45,9,0,0,griega,heroica,heroe
+44,perseo,400 oro.6 favores,400,4.3,4,0,99,12,40,14,0,0,griega,mitica,heroe
+45,gastrafitas,110 madera.70 oro,60,3.8,3,24,99,15,15,0,8,6,griega,mitica,humana
