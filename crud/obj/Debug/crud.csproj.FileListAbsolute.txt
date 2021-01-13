@@ -7,12 +7,4 @@ C:\Users\ibege\Desktop\crud\crud\obj\Debug\crud.csproj.GenerateResource.cache
 C:\Users\ibege\Desktop\crud\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
 C:\Users\ibege\Desktop\crud\crud\obj\Debug\crud.exe
 C:\Users\ibege\Desktop\crud\crud\obj\Debug\crud.pdb
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\bin\Debug\crud.exe
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\bin\Debug\crud.pdb
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\obj\Debug\crud.csprojAssemblyReference.cache
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\obj\Debug\crud.Presentacion.Presentacion.resources
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\obj\Debug\crud.Properties.Resources.resources
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\obj\Debug\crud.csproj.GenerateResource.cache
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\obj\Debug\crud.exe
-C:\Users\DELL\Documents\Servicio\crud - Aom\crud\obj\Debug\crud.pdb
+C:\Users\ibege\Desktop\crud\crud\obj\Debug\crud.Presentacion.sentencias_linq.resources

@@ -115,6 +115,8 @@ namespace crud.Presentacion
             this.label37 = new System.Windows.Forms.Label();
             this.tbborrarb = new System.Windows.Forms.TextBox();
             this.label36 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label38 = new System.Windows.Forms.Label();
             this.pnopciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pactualizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pborrar)).BeginInit();
@@ -127,6 +129,7 @@ namespace crud.Presentacion
             this.pnactualizar.SuspendLayout();
             this.pninsertar.SuspendLayout();
             this.pnborrar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnopciones
@@ -136,6 +139,8 @@ namespace crud.Presentacion
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnopciones.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnopciones.BackgroundImage")));
             this.pnopciones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnopciones.Controls.Add(this.pictureBox1);
+            this.pnopciones.Controls.Add(this.label38);
             this.pnopciones.Controls.Add(this.pactualizar);
             this.pnopciones.Controls.Add(this.pborrar);
             this.pnopciones.Controls.Add(this.pmostrar);
@@ -942,6 +947,30 @@ namespace crud.Presentacion
             this.label36.TabIndex = 0;
             this.label36.Text = "Unidad a Borrar";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(707, 44);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.Font = new System.Drawing.Font("Perpetua", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(484, 44);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(205, 36);
+            this.label38.TabIndex = 8;
+            this.label38.Text = "Selecciones linq";
+            this.label38.Click += new System.EventHandler(this.label38_Click);
+            // 
             // Presentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -968,6 +997,7 @@ namespace crud.Presentacion
             this.pninsertar.PerformLayout();
             this.pnborrar.ResumeLayout(false);
             this.pnborrar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1059,5 +1089,7 @@ namespace crud.Presentacion
         private System.Windows.Forms.TextBox tbborrarb;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.DataGridView dtlistado;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label38;
     }
 }

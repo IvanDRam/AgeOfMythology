@@ -156,5 +156,16 @@ namespace crud.Presentacion
             }
 
         }
+
+        private void label38_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            sentencias_linq lin = new sentencias_linq();
+            lin.ShowDialog();
+        }
     }
 }
