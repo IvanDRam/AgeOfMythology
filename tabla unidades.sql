@@ -23,13 +23,13 @@ Tipo varchar(15)
 
 
 BULK INSERT Units
-FROM 'C:\Users\DELL\Documents\Servicio\crud - Aom\aom.csv'
+FROM 'C:\Users\ibege\Desktop\crud\aom.csv'
 WITH (FIRSTROW = 2,
 		 FIELDTERMINATOR = ',',
 		ROWTERMINATOR='\n',
 		MAXERRORS=5);	
 
-delete from Units where Unidad=50;
+delete from Units;
 select * from Units
 
 Drop database aom;

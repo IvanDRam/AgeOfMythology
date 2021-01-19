@@ -29,14 +29,18 @@ namespace crud.Presentacion
             llenarcombo();
         }
 
-        private void llenarcombo() 
+        private void llenarcombo()
         {
             DataTable datos = new DataTable();
             dunidades funcion = new dunidades();
+            Type t = typeof(String);
             datos = funcion.mostrar();
+
             string[] columnNames = (from col in datos.Columns.Cast<DataColumn>()
                                     select col.ColumnName).ToArray();
             cbdatos.DataSource = columnNames.ToList();
+            lbtipo.Text = datos.Columns[0].DataType.ToString();
+
         }
 
         private void consultas(bool ma, bool me, bool ig)
@@ -68,6 +72,7 @@ namespace crud.Presentacion
         private void cbdatos_TextChanged(object sender, EventArgs e)
         {
             lbres.Text = "Tabla a utilizar "+cbdatos.Text;
+          
         }
 
         private void button1_Click(object sender, EventArgs e)

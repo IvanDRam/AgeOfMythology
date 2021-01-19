@@ -38,6 +38,8 @@ namespace crud.Presentacion
             this.tbcon = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.lbres = new System.Windows.Forms.Label();
+            this.lbtipo = new System.Windows.Forms.Label();
+            this.cbtipo = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvanidado)).BeginInit();
             this.SuspendLayout();
             // 
@@ -128,11 +130,30 @@ namespace crud.Presentacion
             this.lbres.TabIndex = 9;
             this.lbres.Text = "label2";
             // 
+            // lbtipo
+            // 
+            this.lbtipo.AutoSize = true;
+            this.lbtipo.Location = new System.Drawing.Point(255, 76);
+            this.lbtipo.Name = "lbtipo";
+            this.lbtipo.Size = new System.Drawing.Size(35, 13);
+            this.lbtipo.TabIndex = 10;
+            this.lbtipo.Text = "label2";
+            // 
+            // cbtipo
+            // 
+            this.cbtipo.FormattingEnabled = true;
+            this.cbtipo.Location = new System.Drawing.Point(370, 68);
+            this.cbtipo.Name = "cbtipo";
+            this.cbtipo.Size = new System.Drawing.Size(121, 21);
+            this.cbtipo.TabIndex = 11;
+            // 
             // sentencias_linq
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cbtipo);
+            this.Controls.Add(this.lbtipo);
             this.Controls.Add(this.lbres);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbcon);
@@ -162,5 +183,7 @@ namespace crud.Presentacion
         private System.Windows.Forms.TextBox tbcon;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lbres;
+        private System.Windows.Forms.Label lbtipo;
+        private System.Windows.Forms.ComboBox cbtipo;
     }
 }

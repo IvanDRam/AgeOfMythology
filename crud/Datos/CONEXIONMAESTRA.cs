@@ -10,7 +10,7 @@ namespace crud.Datos
 {
     internal static class CONEXIONMAESTRA
     {
-        public static SqlConnection conexion = new SqlConnection("Data Source = DESKTOP-O28IP4D; Initial Catalog = aom; Integrated Security = True");
+        public static SqlConnection conexion = new SqlConnection("Data Source = DESKTOP-IL8U7D3; Initial Catalog = aom; Integrated Security = True");
   
         public static void abrir()
         {
